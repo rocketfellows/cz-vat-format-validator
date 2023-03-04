@@ -55,6 +55,42 @@ class CZVatFormatValidatorTest extends TestCase
                 'isValid' => true,
             ],
             [
+                'vatNumber' => '00000000',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '000000000',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '0000000000',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '11111111',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '111111111',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '1111111111',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '99999999',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '999999999',
+                'isValid' => true,
+            ],
+            [
+                'vatNumber' => '9999999999',
+                'isValid' => true,
+            ],
+            [
                 'vatNumber' => 'cz12345678',
                 'isValid' => false,
             ],
