@@ -3,6 +3,7 @@
 namespace rocketfellows\CZVatFormatValidator\tests\unit;
 
 use PHPUnit\Framework\TestCase;
+use rocketfellows\CZVatFormatValidator\CZVatFormatValidator;
 
 class CZVatFormatValidatorTest extends TestCase
 {
